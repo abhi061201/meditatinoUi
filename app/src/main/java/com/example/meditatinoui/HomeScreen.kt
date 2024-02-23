@@ -109,8 +109,52 @@ fun HomeScreen() {
                     )
                 )
             )
-            BottomBar(modifier = Modifier.align(Alignment.End))
+//            BottomBar(modifier = Modifier.align(Alignment.End))
         }
 
+    }
+}
+
+@Composable
+fun Meditate() {
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text("Meditate")
+    }
+}
+
+@Composable
+fun Sleep() {
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text("Sleep")
+    }
+}
+
+@Composable
+fun Music() {
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text("Music")
+    }
+}
+
+@Composable
+fun Profile() {
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text("Profile")
     }
 }

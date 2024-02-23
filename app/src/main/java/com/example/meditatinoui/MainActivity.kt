@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MeditatinoUiTheme {
                 // A surface container using the 'background' color from the theme
-                HomeScreen()
+                MyApp()
             }
         }
     }
